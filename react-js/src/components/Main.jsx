@@ -3,24 +3,22 @@ import React from "react";
 const Main= () =>{
     return(
       <div><center>
-      <label for="name">Email Id: &emsp;</label>
-              <input  id="name" type="box" placeholder="Email ID"></input>
+               <label for="email" style={{marginLeft:"25px"}}>Email: &emsp;</label>
+             <input id="email" type="text" placeholder="Enter your email"></input>
            <br>
            </br>
-               <label for="na">Password: &emsp;</label>
-             <input id="na" type="box" placeholder="Password"></input>
-           <br>
-           </br>
-               <label for="n">Submit: &emsp;</label>
-            <input id="n" type="box" placeholder="click"></input>
+               <label for="pass" style={{marginLeft:"55px"}}>Password: &emsp;</label>
+            <input id="pass" type="password" placeholder="Enter your password"></input>
             <br>
             </br>
-        <button>
-
+            <br></br>
+        <button id="bt">
           Submit
         </button>
+          
       </center>
         </div>
+        
     );
 };
 

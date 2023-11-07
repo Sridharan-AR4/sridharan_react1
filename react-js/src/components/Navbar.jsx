@@ -2,12 +2,10 @@ import React from "react";
 
 const Navbar= () =>{
     return(
-        <div>
-          <center>
-           <hr></hr>
-           <h1 style={{backgroundColor:"yellowgreen", fontSize:"30px" }}>Your Name</h1>
-           <hr></hr>
-           </center>
+        <div> 
+           <h1 style={{backgroundColor:"green" ,margin:0,lineHeight:"50px"}}>SRIDHARAN_AR</h1>
+           <br></br>
+          
         </div>
     );
 };

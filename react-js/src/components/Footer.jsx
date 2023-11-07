@@ -2,12 +2,8 @@ import React from "react";
 
 const Footer= () =>{
     return(
-        <div>
-           
-           <hr></hr>
-           <h2><center>727722euit182@skcet.ac.in</center></h2>
-           <hr></hr>
-
+        <div style={{backgroundColor:"black",position:"absolute",bottom:0,width:"100%",maxHeight:"35px",alignItems:"center"}}>
+           <p style={{color:"white" , textAlign:"left",margin:"5px"}}>CopyRights@2023</p>
         </div>
     );
 };
