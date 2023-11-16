@@ -23,7 +23,7 @@ const Basicform=()=>{
                 <br></br><br></br>
                 <label for="msg" >Enter your msg here:
                 <br></br>
-                <textarea id="msg" cols={40} rows={5} onChange={(event)=>setemail(event.target.value)}></textarea></label>
+                <textarea id="msg" cols={40} rows={5} onChange={(event)=>setmessage(event.target.value)}></textarea></label>
                 <br></br><br></br>
                 <button>Submit</button>
             </form>
