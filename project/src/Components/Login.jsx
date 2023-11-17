@@ -3,10 +3,10 @@ import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 
 const Login=()=>{
-    const paperstyle={padding:20,height:'70vh',width:300,margin:"20px auto"}
+    const paperstyle={padding:20,height:'70vh',width:300,margin:"0px auto"}
     const avatarstyle={backgroundColor:'#6cdb0e'}
     return(
-        <Grid >
+        <div style={{width:"100wh",height:"100vh",backgroundColor:"#04c49d"}}> 
             <Paper elevation={5} style={paperstyle}>
                 <Grid align='center' spacing={3}>
                     <Avatar style={avatarstyle}><PersonOutlineOutlinedIcon /></Avatar>
@@ -34,7 +34,7 @@ const Login=()=>{
                     <Link href="#">Sign Up</Link>
                 </Typography>
             </Paper>
-        </Grid>
+        </div>
     );
 };
 export default Login;

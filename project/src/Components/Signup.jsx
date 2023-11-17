@@ -1,13 +1,10 @@
 import { Avatar, Box, Button, Checkbox, Container, FormControlLabel, Grid, Link, Paper, TextField, Typography } from "@mui/material";
 import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
 const Signup=()=>{
-    const paperstyle={padding:20,height:'80vh',width:300,margin:"20px auto"}
+    const paperstyle={padding:20,height:'80vh',width:300,margin:"0px auto"}
     const avatarstyle={backgroundColor:'#6cdb0e'}
-    const boxstyle={backgroundColor:'aliceblue',height:'100%'}
     return(
-        
-        <Box style={boxstyle}>
-            <Grid>
+        <div style={{width:"100wh",height:"100vh",backgroundColor:"#04c49d"}}> 
             <Paper elevation={5} style={paperstyle}>
                 <Grid align='center' spacing={3}>
                     <Avatar style={avatarstyle}><PersonAddAltOutlinedIcon /></Avatar>
@@ -33,8 +30,9 @@ const Signup=()=>{
                     <Link href="#">Sign In</Link>
                 </Typography>
             </Paper>
-            </Grid>
-        </Box>
+            
+        </div>
+        
     );
 };
 export default Signup;
